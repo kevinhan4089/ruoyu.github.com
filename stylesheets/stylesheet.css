@@ -64,8 +64,8 @@ a:hover {
 }
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
@@ -148,11 +148,27 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button {
+aside a.button1 {
   width: 138px;
   padding-left: 64px;
   display: block;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  background: transparent url(../images/weibo.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+aside a.button2 {
+  width: 138px;
+  padding-left: 64px;
+  display: block;
+  background: transparent url(../images/tweibo.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+aside a.button3 {
+  width: 138px;
+  padding-left: 64px;
+  display: block;
+  background: transparent url(../images/renren.png) 0 0 no-repeat;
   margin-bottom: 20px;
   font-size: 21px;
 }
